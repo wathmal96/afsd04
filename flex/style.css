@@ -1,0 +1,41 @@
+.item{
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 2px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-space_between{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-space_around{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}

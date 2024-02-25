@@ -1,0 +1,100 @@
+.displayFlex{
+    display: flex;
+}
+
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexSpaceAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.flex2{
+    flex: 2;
+}
+
+.flex3{
+    flex: 3;
+}
+
+.div1{
+    background-color: blueviolet;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.viewWidth{
+    width: 100%;
+}
+
+#map{
+    height: 500px;
+    margin: 20px;
+}
+
+.button{
+    background-color: rgb(170, 18, 18);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(218, 15, 15);
+}
+
+.tableHeading{
+    background-color: rgb(88, 177, 88);
+}
+
+th{
+    text-align: center;
+    padding: 10px;
+}
+
+.tableRow2{
+    background-color: rgb(164, 202, 202);
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+/* .topMargin{
+   margin-top: 20px;
+}
+
+.bottomMargin{
+    margin-bottom: 20px;
+}
+
+.leftMargin{
+    margin-left: 20px;
+}
+
+.rightMargin{
+    margin-right: 20px;
+} */
+
+.view{
+    width: 100vw;
+    padding: 20px;
+}
+
+
+
+

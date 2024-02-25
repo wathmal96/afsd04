@@ -1,0 +1,37 @@
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* transform: rotate(45deg); */
+}
+
+/* @keyframes example{
+    from{left: 0;background-color: red;}
+    to{left: 500px;background-color: blue; border-radius: 100px;}
+} */
+
+@keyframes example{
+    0%{background-color: red;left: 0;top: 0; transform: rotate(0deg);
+    }
+    25%{background-color: rgb(52, 173, 28);left: 500px;top: 0;transform: rotate(90deg)}
+    50%{background-color: rgb(38, 36, 209);left: 500px;top: 500px;transform: rotate(180deg)}
+    75%{background-color: rgb(202, 236, 9);left: 0px;top: 500px;transform: rotate(90deg)}
+    100%{background-color: red;left: 0;top:0;transform: rotate(0deg)}
+}
+
+.transition{
+    width:200px ;
+    height: 200px;
+    background-color:blue ;
+    position: relative;
+    transition: background-color 5s ,transform 5s;
+}
+
+.transition:hover{
+    background-color:red ;
+    transform: rotate(360deg);
+}

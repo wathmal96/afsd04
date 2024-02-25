@@ -1,0 +1,59 @@
+.sticky{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #ffffff;
+    width : 100vw;
+    height :50px;
+    position:sticky;
+    top: 10px;
+}
+
+.static{
+    top: 50px;
+    bottom: 100px;
+    left: 50px;
+    right: 60px;
+    position: static;
+    background-color: blue;
+    margin-top: 100px;
+}
+
+.relative{
+    top: 50px;
+    bottom: 100px;
+    left: 100px;
+    right: 60px;
+    position: relative;
+    border: 2px solid black;
+    background-color: blue;
+}
+
+.relative-2{
+    position:relative;
+    width:500px;
+    height:300px;
+    border:2px solid;
+}
+
+.absolute{
+    position:absolute;
+    padding:5px;
+    width:200px;
+    height:70px;
+    border:1px solid black;
+    margin: o;
+}
+
+.fixed{
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position:fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
